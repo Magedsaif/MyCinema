@@ -42,23 +42,6 @@ export function MovieDetails({
     Genre: genre,
   } = movie;
 
-  // if (imdbRating > 8) return <p>Greatest Ever</p>;
-  // if (imdbRating > 8) [isTop, setIsTop] = useState(true);
-
-  // const [isTop, setIsTop] = useState(imdbRating > 8);
-  // console.log(isTop);
-
-  // useEffect(
-  //   function () {
-  //     setIsTop(imdbRating > 8);
-  //   },
-  //   [imdbRating]
-  // );
-
-  const isTop = imdbRating > 8;
-
-  const [avgRating, setAvgRating] = useState(0);
-
   function handleAdd() {
     const newWatchedMovie = {
       imdbID: selectedId,
@@ -71,10 +54,6 @@ export function MovieDetails({
       countRatingDecisions: countRef.current,
     };
     onAddWatched(newWatchedMovie);
-    // onCloseMovie();
-
-    // setAvgRating(Number(imdbRating));
-    // setAvgRating((avgRating) => (avgRating + userRating) / 2);
   }
 
   useKey("Escape", onCloseMovie);
@@ -102,7 +81,6 @@ export function MovieDetails({
 
       return function () {
         document.title = "usePopcorn";
-        // console.log(`clean up effect for movie ${title}`);
       };
     },
     [title]
@@ -131,7 +109,6 @@ export function MovieDetails({
               </p>
             </div>
           </header>
-          {/* <p>{avgRating}</p> */}
 
           <section>
             <div className="rating">

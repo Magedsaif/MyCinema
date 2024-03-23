@@ -8,7 +8,6 @@ export function useMovies(query) {
   const [error, setError] = useState("");
   useEffect(
     function () {
-      //   callback?.(); // it will only be called if it only exist thanks to optional chaining
       const controller = new AbortController();
 
       async function fetchMovies() {
