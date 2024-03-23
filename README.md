@@ -23,7 +23,7 @@ My Cinema is a React-based web application for searching, exploring, and rating 
 
 ## How to Run
 
-you can run the application by visiting the following link: [My Cinema](https://my-cinema-app.netlify.app/)
+you can run the application by visiting the following link: [My Cinema](https://mycinema-app.netlify.app/)
 or you can run the application locally by following the steps below:
 
 1. Clone this repository to your local machine.
