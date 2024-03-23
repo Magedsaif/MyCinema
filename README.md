@@ -36,6 +36,3 @@ or you can run the application locally by following the steps below:
 
 Contributions to My Cinema are welcome! Please fork this repository, make your changes, and submit a pull request. For major changes, please open an issue first to discuss potential improvements or features.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
