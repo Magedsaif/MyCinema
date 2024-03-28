@@ -16,7 +16,7 @@ My Cinema is a React-based web application for searching, exploring, and rating 
 
 - React
 - JavaScript (ES6+)
-- HTML/CSS
+- CSS
 - Open Movie Database (OMDb) API
 - LocalStorage
 - React Hooks
